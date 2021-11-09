@@ -3,12 +3,10 @@ void setup() {
 }
 
 void loop() {
-  if (Serial.available()) {
-    Serial.write("AAAAAAAA");
-    delay(1000);
-    Serial.write("BBBBBBBB");
-    delay(1000);
-    Serial.write("CCCCCCCC");
-    delay(1000);
-  }
+  Serial.write("AAAAAAAA\n");
+  delay(1000);
+  Serial.write("BBBBBBBB\n");
+  delay(1000);
+  Serial.write("CCCCCCCC\n");
+  delay(1000);
 }
